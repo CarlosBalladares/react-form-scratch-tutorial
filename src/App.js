@@ -10,6 +10,7 @@ class App extends React.Component {
   handleClick() {
     alert("hello");
   }
+
   render() {
     return React.createElement("div", {}, [
       React.createElement("h1", { onClick: this.handleClick }, "adopt me"),
