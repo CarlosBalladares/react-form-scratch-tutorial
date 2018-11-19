@@ -27,5 +27,6 @@
     "react": {
       "version": "latest"
     }
-  }
+  },
+  "parser": "babel-eslint"
 }
